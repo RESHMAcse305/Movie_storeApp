@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Movie_StoreApp.Models.MovieInsert>
+
+<h1>Welcome to Admin Home</h1>
+<a class="btn btn-primary" href="@Url.Action("Admin_load","AdminHome")">Add Genre</a>
+<a class="btn btn-primary" href="@Url.Action("Add_Director","AdminHome")">Add Director</a>
+<a class="btn btn-primary" href="@Url.Action("Add_Movie","AdminHome")">Add Movie</a>
+
+@if (Model == null || !Model.Any())
+{
+    <p>No movies available.</p>
+}
+else
+{
+    <h2>Movie List</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Release Date</th>
+                <th>Actors</th>
+                <th>Genre</th>
+                <th>Director</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var movie in Model)
+            {
+                <tr>
+                    <td>@movie.Movie_Title</td>
+                    <td>@movie.ReleaseDate</td>
+                    <td>@movie.Actors</td>
+                    <td>@movie.GenreName</td>
+                    <td>@movie.DirectorName</td>
+                    <td>
+                        <a class="btn btn-warning" asp-action="MovieEdit" asp-controller="AdminHome" asp-route-id="@movie.Movie_Id">Edit</a>
+                        <form asp-action="MovieDelete" asp-controller="AdminHome" asp-route-id="@movie.Movie_Id" method="post" style="display:inline;">
+                            <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this movie?');">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

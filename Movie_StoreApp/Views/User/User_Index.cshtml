@@ -1,0 +1,22 @@
+﻿@model IEnumerable<MovieInsert>
+<h2>movie list</h2>
+
+
+<a asp-controller="User" asp-action="search_index" class="btn btn-primary">Go to search</a>
+
+
+<div class="row">
+    @foreach (var movie in Model)
+    {
+        <div class="col-md-3">
+            <div class="card">
+                <a href="@Url.Action("User_click", "User", new { id = movie.Movie_Id })">
+                    <img src="@movie.Poster_Image" class="card-img-top" alt="Movie Poster" />
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">@movie.Movie_Title</h5>
+                </div>
+            </div>
+        </div>
+    }
+</div>

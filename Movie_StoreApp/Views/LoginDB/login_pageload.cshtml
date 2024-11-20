@@ -1,0 +1,29 @@
+﻿@model Movie_StoreApp.Models.Login
+
+<h1>Login</h1>
+<form asp-action="Login_click" class="form-horizontal" method="post">
+    <div class="form-group">
+        <label class="control-label">Username:</label>
+        <input asp-for="Username" id="txt1" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label class="control-label">Password:</label>
+        <input asp-for="Password" id="txt2" type="password" class="form-control" />
+    </div><br />
+    <div class="form-group">
+        <input type="submit" value="Login" class="btn btn-danger" />
+    </div>
+    <br />
+    <a asp-controller="RegisterDB" asp-action="Register_pageload" class="btn btn-primary">Register</a>
+</form>
+
+@{
+    if (TempData["Message"] != null)
+    {
+        <script>
+            alert('@TempData["Message"]');
+            document.getElementById("txt1").value = "";
+            document.getElementById("txt2").value = "";
+        </script>
+    }
+}

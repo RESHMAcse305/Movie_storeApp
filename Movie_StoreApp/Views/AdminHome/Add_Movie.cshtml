@@ -1,0 +1,58 @@
+﻿@model Movie_StoreApp.Models.MovieInsert
+<h1>Add Movies</h1>
+<form asp-action="Admin_Movie" class="form-horizodal" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label class="control-label"> Movie_Title:</label>
+        <input asp-for="Movie_Title" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label class="control-label"> ReleaseDate:</label>
+        <input asp-for="ReleaseDate" class="form-control" />
+    </div>
+    <br />
+    <div class="form-group">
+    <label>Genre:</label>
+    <select asp-for="GenreId" asp-items="@(new SelectList(ViewBag.Genres, "GenreId", "GenreName"))">
+        <option value="">Select Genre</option>
+    </select>
+    </div><br /><br />
+    <div class="form-group">
+    <label>Director:</label>
+    <select asp-for="DirectorId" asp-items="@(new SelectList(ViewBag.Directors, "DirectorId", "DirectorName"))">
+        <option value="">Select Director</option>
+    </select>
+    </div><br /><br />
+    <div class="form-group">
+        <label class="control-label">Actors</label>
+        <textarea asp-for="Actors" type="text" class="form-control" autofocus></textarea>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Description</label>
+        <textarea asp-for="Description" type="text" class="form-control" autofocus></textarea>
+    </div>
+    <div class="form-group">
+        <label class="control-label"> Duration:</label>
+        <input asp-for="Duration" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label class="control-label"> Rating:</label>
+        <input asp-for="Rating" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label class="control-label">Poster Image:</label>
+        <input asp-for="PosterFile" type="file" class="form-control" />
+    </div>
+    <div class="form-group">
+    <button type="submit">Insert Movie</button>
+    </div>
+
+    <a class="btn btn-primary" href="@Url.Action("Admin_Home","AdminHome")">Go to Home</a>
+</form>
+@{
+    if (TempData["msg"] != null)
+    {
+        <script>
+            alert('@TempData["msg"]');
+        </script>
+    }
+}

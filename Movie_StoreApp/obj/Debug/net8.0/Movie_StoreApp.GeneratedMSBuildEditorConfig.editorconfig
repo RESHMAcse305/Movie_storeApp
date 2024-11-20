@@ -1,0 +1,123 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Movie_StoreApp
+build_property.RootNamespace = Movie_StoreApp
+build_property.ProjectDir = C:\Users\rahul\source\repos\Movie_StoreApp\Movie_StoreApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\rahul\source\repos\Movie_StoreApp\Movie_StoreApp
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/rahul/source/repos/Movie_StoreApp/Movie_StoreApp/Views/AdminDB/Admin_home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5EQlxBZG1pbl9ob21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rahul/source/repos/Movie_StoreApp/Movie_StoreApp/Views/AdminDB/Admin_Pageload.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5EQlxBZG1pbl9QYWdlbG9hZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rahul/source/repos/Movie_StoreApp/Movie_StoreApp/Views/AdminHome/Add_Director.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Ib21lXEFkZF9EaXJlY3Rvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rahul/source/repos/Movie_StoreApp/Movie_StoreApp/Views/AdminHome/Add_Movie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Ib21lXEFkZF9Nb3ZpZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rahul/source/repos/Movie_StoreApp/Movie_StoreApp/Views/AdminHome/Admin_Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Ib21lXEFkbWluX0hvbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rahul/source/repos/Movie_StoreApp/Movie_StoreApp/Views/AdminHome/Admin_load.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Ib21lXEFkbWluX2xvYWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rahul/source/repos/Movie_StoreApp/Movie_StoreApp/Views/AdminHome/Admin_pageload.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Ib21lXEFkbWluX3BhZ2Vsb2FkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rahul/source/repos/Movie_StoreApp/Movie_StoreApp/Views/AdminHome/MovieEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Ib21lXE1vdmllRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rahul/source/repos/Movie_StoreApp/Movie_StoreApp/Views/AdminHome/MovieList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Ib21lXE1vdmllTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rahul/source/repos/Movie_StoreApp/Movie_StoreApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rahul/source/repos/Movie_StoreApp/Movie_StoreApp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rahul/source/repos/Movie_StoreApp/Movie_StoreApp/Views/LoginDB/login_pageload.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5EQlxsb2dpbl9wYWdlbG9hZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rahul/source/repos/Movie_StoreApp/Movie_StoreApp/Views/RegisterDB/Register_pageload.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJEQlxSZWdpc3Rlcl9wYWdlbG9hZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rahul/source/repos/Movie_StoreApp/Movie_StoreApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rahul/source/repos/Movie_StoreApp/Movie_StoreApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rahul/source/repos/Movie_StoreApp/Movie_StoreApp/Views/User/Review_load.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZXZpZXdfbG9hZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rahul/source/repos/Movie_StoreApp/Movie_StoreApp/Views/User/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rahul/source/repos/Movie_StoreApp/Movie_StoreApp/Views/User/search_Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxzZWFyY2hfSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rahul/source/repos/Movie_StoreApp/Movie_StoreApp/Views/User/User_click.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VyX2NsaWNrLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rahul/source/repos/Movie_StoreApp/Movie_StoreApp/Views/User/User_details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VyX2RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rahul/source/repos/Movie_StoreApp/Movie_StoreApp/Views/User/User_Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VyX0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rahul/source/repos/Movie_StoreApp/Movie_StoreApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rahul/source/repos/Movie_StoreApp/Movie_StoreApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rahul/source/repos/Movie_StoreApp/Movie_StoreApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-v6icow275e

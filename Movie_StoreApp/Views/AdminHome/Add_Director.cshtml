@@ -1,0 +1,30 @@
+﻿@model Movie_StoreApp.Models.Director
+<h1>Add Genre</h1>
+<form asp-action="Admin_Director" class="form-horizodal" method="post">
+    <div class="form-group">
+        <label class="control-label"> Director Name:</label>
+        <input asp-for="DirectorName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label class="control-label">Director Description:</label>
+        <textarea asp-for="DirectorDetails" type="text" class="form-control" autofocus></textarea>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Filimograpy:</label>
+        <textarea asp-for="Filimograpy" type="text" class="form-control" autofocus></textarea>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Add" class="btn-outline-success">
+    </div>
+    <br />
+    <a class="btn btn-primary" href="@Url.Action("Admin_Home","AdminHome")">Go to Home</a>
+
+</form>
+@{
+    if (TempData["msg"] != null)
+    {
+        <script>
+            alert('@TempData["msg"]');
+        </script>
+    }
+}

@@ -1,0 +1,39 @@
+﻿@model Movie_StoreApp.Models.AdminInsert
+<h1>Admin Registration</h1>
+<form asp-action="Admin_click" class="form-horizodal" method="post">
+    <div class="form-group">
+        <label class="control-label"> Admin Name:</label>
+        <input asp-for="AdminName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label class="control-label">Admin_Address:</label>
+        <input asp-for="Admin_Address" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label class="control-label">Admin_Phone:</label>
+        <input asp-for="Admin_Phone" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label class="control-label">Admin_email:</label>
+        <input asp-for="Admin_email" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label class="control-label">Username:</label>
+        <input asp-for="Username" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label class="control-label">Password</label>
+        <input asp-for="Password" class="form-control" />
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Register" class="btn-outline-success">
+    </div>
+</form>
+@{
+    if (TempData["msg"] != null)
+    {
+        <script>
+            alert('@TempData["msg"]');
+        </script>
+    }
+}

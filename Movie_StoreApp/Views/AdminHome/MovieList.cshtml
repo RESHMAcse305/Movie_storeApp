@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Movie_StoreApp.Models.MovieInsert>
+<h2>MovieList</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Release Date</th>
+            <th>Actors</th>
+            <th>Genre</th>
+            <th>Director</th>
+           
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var movies in Model)
+        {
+            <tr>
+                <td>@movies.Movie_Title</td>
+                <td>@movies.ReleaseDate</td>
+                <td>@movies.Actors</td>
+                <td>@movies.GenreName</td>
+                <td>@movies.DirectorName</td>
+            </tr>
+        }
+    </tbody>
+</table>
